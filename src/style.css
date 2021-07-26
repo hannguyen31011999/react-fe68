@@ -1,0 +1,57 @@
+
+.btn.btn-active {
+    border: 5px solid red;
+}
+
+.btn.btn-steal {
+    background-color: rgb(112, 109, 109);
+    color: white;
+}
+
+
+/* #root .container-fluid {
+    min-height: 596px;
+    width: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .card-text {
+    max-height: 100px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+} */
+
+.col-4.model-image {
+    position: relative;
+}
+
+.model-image .image {
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#listGlass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#listGlass img {
+    width: 80px;
+    height: 50px;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+#listGlass .active {
+    border: 1px solid red;
+}
