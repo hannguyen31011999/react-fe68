@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../../style.css';
+import '../../style.css';
 import styleGlass from './glass.module.css';
 import ListGlassComponent from './ListGlassComponent';
 

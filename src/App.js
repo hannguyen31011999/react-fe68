@@ -1,12 +1,12 @@
-// import MainGlassComponent from "./Component/Glass/MainGlassComponent";
+import MainGlassComponent from "./Component/Glass/MainGlassComponent";
 
 import CarComponent from "./Component/Car/CarComponent";
 
 function App() {
   return (
     <div>
-      {/* <MainGlassComponent /> */}
-      <CarComponent />
+      <MainGlassComponent />
+      {/* <CarComponent /> */}
     </div>
   );
 }
